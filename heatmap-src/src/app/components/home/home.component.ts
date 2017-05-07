@@ -106,11 +106,6 @@ export class HomeComponent implements OnInit {
     const rectHeight = (height - padding - ySpacer) / 12;
     const rectWidth = (width - padding) / numYears;
 
-    // y ordinal scale
-    const yOrd = d3.scaleOrdinal()
-      .domain(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'])
-      .range([12.5, 0.5]);
-
     // y axis
     const yAxis = d3.axisLeft(yScale).tickFormat((d, i) => {
       return monthNames[Number(d) - 1];
