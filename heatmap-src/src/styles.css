@@ -2,7 +2,7 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 body {
-    font-family: Roboto, 'Helvetica Neue', sans-serif;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -79,5 +79,6 @@ div.tooltip {
 }
 
 .tick {
-  font-size: 1.4em;
+  font-size: 1.3em;
+  font-weight: bold;
 }
